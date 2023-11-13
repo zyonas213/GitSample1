@@ -12,5 +12,5 @@ obj:
 	$(CPP) -c $(FILES)
 clean:
 	$(RM) $(FILE)
-
-@PHONY clean all
+#include all the name of make file commands
+@PHONY clean all obj
