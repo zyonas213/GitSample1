@@ -12,5 +12,7 @@ obj:
 	$(CPP) -c $(FILES)
 clean:
 	$(RM) $(FILE)
+re: clean all
 #Make file run commands
-@PHONY clean all obj
+#re added to recreate compilation
+@PHONY clean all obj re
