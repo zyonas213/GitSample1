@@ -13,6 +13,8 @@ obj:
 clean:
 	$(RM) $(FILE)
 re: clean all
-#Make file run commands
-#re added to recreate compilation
 @PHONY clean all obj re
+#include all the name of make file commands
+#additional command will be added soon.
+@PHONY clean all obj
+
